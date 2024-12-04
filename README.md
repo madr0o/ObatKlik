@@ -5,6 +5,10 @@
    ```cmd
     git clone https://github.com/madr0o/ObatKlik.git
    ```
+4. Pastikan clone berhasil
+   ```
+    git status
+   ```
 
 
 
