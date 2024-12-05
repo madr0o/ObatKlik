@@ -5,7 +5,11 @@
    ```cmd
     git clone https://github.com/madr0o/ObatKlik.git
    ```
-4. Pastikan clone berhasil
+4. Install composer di project tersebut untuk mendapatkan vendor
+   ```
+    composer install
+   ```
+5. Pastikan clone berhasil
    ```
     git status
    ```
