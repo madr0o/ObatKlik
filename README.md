@@ -9,7 +9,15 @@
    ```
     composer install
    ```
-5. Pastikan clone berhasil
+5. Setup file .env
+   ```
+    cp .env.example .env
+   ```
+6. Generate application key
+   ```
+    php artisan key:generate
+   ```
+7. Pastikan clone berhasil
    ```
     git status
    ```
