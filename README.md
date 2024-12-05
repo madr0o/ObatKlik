@@ -1,3 +1,25 @@
+## Cara Clone repositories ke folder project lokal
+1. Buat folder project
+2. Buka command line di folder tersebut
+3. Jalankan perintah
+   ```cmd
+    git clone https://github.com/madr0o/ObatKlik.git
+   ```
+4. Install composer di project tersebut untuk mendapatkan vendor
+   ```
+    composer install
+   ```
+5. Pastikan clone berhasil
+   ```
+    git status
+   ```
+
+## Note
+- Selalu buat backup sebelum melakukan push/pull
+- Lakukan pull sebelum mengerjakan project agar mendapatkan perubahan terbaru
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
