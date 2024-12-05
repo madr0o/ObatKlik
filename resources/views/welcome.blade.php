@@ -9,8 +9,18 @@
 </head>
 <body>
     {{-- navbar --}}
-    <nav>
-
+    <nav class="navbar" style="background-color: #BFE4F9">
+        <div class="container justify-content-start">
+          <a class="" href="#">
+            <img src="{{asset('images/logo.svg')}}" alt="obatklik-logo" width="20%" height="20%">
+          </a>
+          <div class="col g-2">
+            <a href="" class="pe-3" style="color: black;text-decoration:none;">Home</a>
+            <a href="" class="pe-3" style="color: black;text-decoration:none;">Profile</a>
+            <a href="" class="pe-3" style="color: black;text-decoration:none;">Login</a>
+          </div>
+          
+        </div>
     </nav>
 
     {{-- content --}}
