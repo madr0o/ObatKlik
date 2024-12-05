@@ -11,7 +11,8 @@
    ```
 
 ## Note
-Selalu buat backup sebelum melakukan push/pull
+- Selalu buat backup sebelum melakukan push/pull
+- Lakukan pull sebelum mengerjakan project agar mendapatkan perubahan terbaru
 
 
 
