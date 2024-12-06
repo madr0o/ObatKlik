@@ -18,19 +18,19 @@
                                         <p><b>Blackmores Vitamin D3 1000 IU / Bio D3 1000 IU 60 Kapsul</b></p>
                                         <p>Per Botol</p>
                                     </div>
-                                    <div class="col">
-                                        <div class="row">
+                                    <div class="col d-flex flex-column mb-2">
+                                        <div class="row mb-auto">
                                             <p class="text-end"><b>Rp 175.800</b></p>
                                         </div>
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col d-flex justify-content-center align-items-center">
-                                                    <img src="{{asset('images/icon/trash.svg')}}" alt="">
+                                                    <img src="{{asset('images/icon/trash.svg')}}" alt="item-img">
                                                 </div>
-                                                <div class="card col d-flex justify-content-center" style="width: 20px;">
-                                                    <div class="row align-items-center text-center">
+                                                <div class="card col justify-content-center" style="width: 20px;">
+                                                    <div class="row d-flex  align-items-center">
                                                         <a class="col" href="#" style="text-decoration: none; color:black;"><b>-</b></a>
-                                                        <p class="col text-center">1</p>
+                                                        <p class="col m-0">1</p>
                                                         <a class="col" href="#" style="text-decoration: none; color:black;"><b>+</b></a>
                                                     </div>
                                                 </div>
