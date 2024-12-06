@@ -24,7 +24,7 @@
                                         </div>
                                         <div class="container">
                                             <div class="row">
-                                                <div class="col d-flex justify-content-center align-items-center">
+                                                <div class="col d-flex justify-content-end">
                                                     <img src="{{asset('images/icon/trash.svg')}}" alt="item-img">
                                                 </div>
                                                 <div class="card col justify-content-center" style="width: 20px;">
