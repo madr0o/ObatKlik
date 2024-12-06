@@ -45,7 +45,34 @@
                 <div class="row gx-2">
                     <div class="col pt-0">
                         <div class="card" style="width: 50rem;">
-                            <h1>test</h1>
+                            <div class="container py-2 px-3">
+                                <div class="row">
+                                    <div class="col" style="width:104px;">
+                                        <img class="border border-black rounded-4 border-opacity-10" src="{{asset('images/item.svg')}}" alt="" style="width: 83px;height:83px;padding:4px;">
+                                    </div>
+                                    <div class="col">
+                                        <p><b>Blackmores Vitamin D3 1000 IU / Bio D3 1000 IU 60 Kapsul</b></p>
+                                        <p>Per Botol</p>
+                                    </div>
+                                    <div class="col">
+                                        <div class="row">
+                                            <p><b>Rp 175.800</b></p>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <img src="{{asset('images/icon/trash.svg')}}" alt="">
+                                            </div>
+                                            <div class="card col">
+                                                <div class="row">
+                                                    <a class="col" href="#" style="text-decoration: none; color:black;"><b>-</b></a>
+                                                    <p class="col">1</p>
+                                                    <a class="col" href="#" style="text-decoration: none; color:black;"><b>+</b></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col">
