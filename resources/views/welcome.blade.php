@@ -19,12 +19,14 @@
             <a href="" class="pe-3" style="color: black;text-decoration:none;">Profile</a>
             <a href="" class="pe-3" style="color: black;text-decoration:none;">Login</a>
           </div>
-          
+          <a href="{{route('cart')}}">
+            <img src="{{asset('images/icon/cart.svg')}}" alt="cart-icn">
+          </a>
         </div>
     </nav>
 
     {{-- content --}}
-    <div id="body-content">
+    <div style="padding-top: 30px" id="body-content">
         @yield('content')
     </div>
 
