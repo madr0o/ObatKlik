@@ -1,7 +1,7 @@
 @extends('welcome')
 @section('content')
     <div class="container">
-        <div class="col">
+        {{-- <div class="col">
             <div class="justify-content-start">
                 <h3>Keranjang</h3>
             </div>
@@ -32,6 +32,29 @@
                           <h5 class="card-title">Ringkasan belanja</h5>
                           <p class="card-text"><b>Total</b><br> Rp 255.000</p>
                           <a href="#" class="btn btn-primary">Beli</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> --}}
+        <div class="col">
+            <div>
+                <h3><b>Keranjang</b></h3>
+            </div>
+            <div class="container p-0">
+                <div class="row gx-2">
+                    <div class="col pt-0">
+                        <div class="card" style="width: 50rem;">
+                            <h1>test</h1>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                              <h5 class="card-title"><b>Ringkasan belanja</b></h5>
+                              <p class="card-text"><b>Total</b><br> Rp 255.000</p>
+                              <a href="#" class="btn btn-primary">Beli</a>
+                            </div>
                         </div>
                     </div>
                 </div>
