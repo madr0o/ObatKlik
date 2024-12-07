@@ -8,7 +8,7 @@
             <div class="container p-0">
                 <div class="row gx-2">
                     <div class="col pt-0">
-                        <div class="card" style="width: 50rem;">
+                        <div class="card mb-2" style="width: 50rem;">
                             <div class="container py-2 px-3">
                                 <div class="row">
                                     <div class="col d-flex align-items-center" style="width:104px;" id="img-item-cart">
