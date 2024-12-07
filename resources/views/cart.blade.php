@@ -11,7 +11,7 @@
                         <div class="card" style="width: 50rem;">
                             <div class="container py-2 px-3">
                                 <div class="row">
-                                    <div class="col" style="width:104px;">
+                                    <div class="col d-flex align-items-center" style="width:104px;" id="img-item-cart">
                                         <img class="border border-black rounded-4 border-opacity-10" src="{{asset('images/item.svg')}}" alt="" style="width: 83px;height:83px;padding:4px;">
                                     </div>
                                     <div class="col">
@@ -47,8 +47,8 @@
                             <div class="card-body">
                                 <h5 class="card-title"><b>Ringkasan belanja</b></h5>
                                 <div class="row">
-                                    <p class="col card-text"><b>Total</b></p>
-                                    <p class="col card-text d-flex justify-content-end">Rp 255.000</p>
+                                    <p class="col card-text">Total</p>
+                                    <p class="col card-text d-flex justify-content-end"><b>Rp 255.000</b></p>
                                 </div>
                                 <a href="#" class="btn btn-primary d-flex justify-content-center">Beli</a>
                             </div>
