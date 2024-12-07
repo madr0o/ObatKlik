@@ -14,8 +14,8 @@
                                     <div class="col d-flex align-items-center" style="width:104px;" id="img-item-cart">
                                         <img class="border border-black rounded-4 border-opacity-10" src="{{asset('images/item.svg')}}" alt="" style="width: 83px;height:83px;padding:4px;">
                                     </div>
-                                    <div class="col">
-                                        <p><b>Blackmores Vitamin D3 1000 IU / Bio D3 1000 IU 60 Kapsul</b></p>
+                                    <div class="col-5">
+                                        <p class="wrap-text"><b>Blackmores Vitamin D3 1000 IU / Bio D3 1000 IU 60 Kapsul</b></p>
                                         <p>Per Botol</p>
                                     </div>
                                     <div class="col d-flex flex-column mb-2">
