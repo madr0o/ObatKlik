@@ -45,9 +45,12 @@
                     <div class="col">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body">
-                              <h5 class="card-title"><b>Ringkasan belanja</b></h5>
-                              <p class="card-text"><b>Total</b><br> Rp 255.000</p>
-                              <a href="#" class="btn btn-primary">Beli</a>
+                                <h5 class="card-title"><b>Ringkasan belanja</b></h5>
+                                <div class="row">
+                                    <p class="col card-text"><b>Total</b></p>
+                                    <p class="col card-text d-flex justify-content-end">Rp 255.000</p>
+                                </div>
+                                <a href="#" class="btn btn-primary d-flex justify-content-center">Beli</a>
                             </div>
                         </div>
                     </div>
