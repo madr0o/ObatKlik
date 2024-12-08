@@ -24,6 +24,7 @@
 
 ## Note
 - Selalu buat backup sebelum melakukan push/pull
+- Agar code utama aman, buat branch baru untuk task kalian
 - Lakukan pull sebelum mengerjakan project agar mendapatkan perubahan terbaru
 
 
