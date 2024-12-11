@@ -57,4 +57,29 @@ class ProfileController extends Controller
 
         return Redirect::to('/');
     }
+
+    public function uploadPhoto(Request $request): RedirectResponse
+{
+    // Validasi file
+    $request->validate([
+        'profile_photo' => 'required|image|mimes:jpg,jpeg,png|max:2048', // Maks 2 MB
+    ]);
+
+    
+    if ($request->hasFile('profile_photo')) {
+        // Simpan file ke storage/public/profile_photos
+        $path = $request->file('profile_photo')->store('profile_photos', 'public');
+
+        // Update kolom profile_photo di database
+        $user = $request->user();
+        $user->profile_photo = $path;
+        $user->save();
+        
+        return back()->with('success', 'Profile photo updated successfully.');
+    }
+
+    return back()->with('error', 'No file uploaded.');
+}
+
+
 }

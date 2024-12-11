@@ -21,6 +21,7 @@ return new class extends Migration
             $table->enum('gender', ['male', 'female', 'other'])->nullable(); // gender
             $table->text('address')->nullable(); // alamat
             $table->string('phone')->nullable(); // nomor telepon
+            $table->string('profile_photo')->nullable(); // foto profil
             $table->rememberToken();
             $table->timestamps();
         });
